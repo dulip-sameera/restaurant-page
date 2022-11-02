@@ -3,4 +3,4 @@
 ## Designs
 
 ### Home Page
-![Home Page](Design/home.jpg)
+![Home Page](Design/Home.jpg)
