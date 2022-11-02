@@ -1,4 +1,4 @@
-# restaurant-page
+# YamiYam - Restaurant
 
 ## Designs
 
