@@ -1,6 +1,7 @@
 import "./load-page.css";
 import header from "../../components/header/header.js";
 import loadHome from "../home/home.js";
+import loadContact from "../contact/contact.js";
 import footer from "../../components/footer/footer";
 
 export default function pageLoad(mainElement) {
@@ -24,14 +25,19 @@ export default function pageLoad(mainElement) {
   const homePage = loadHome();
   contentPage.appendChild(homePage);
 
+  const contactPage = loadContact();
+  contentPage.appendChild(contactPage);
+
   // Body section access
   const homePageSectoin = document.getElementById("home-page");
+  const contactPageSection = document.getElementById("contact-page");
 
   brandName.addEventListener("click", () => {
     menuLink.classList.remove("selected");
     contactLink.classList.remove("selected");
     homeLink.classList.remove("selected");
     homePageSectoin.className = "home";
+    contactPageSection.className = "hide";
   });
 
   homeLink.addEventListener("click", () => {
@@ -40,6 +46,7 @@ export default function pageLoad(mainElement) {
     homeLink.classList.add("selected");
 
     homePageSectoin.className = "home";
+    contactPageSection.className = "hide";
   });
 
   contactLink.addEventListener("click", () => {
@@ -48,6 +55,7 @@ export default function pageLoad(mainElement) {
     contactLink.classList.add("selected");
 
     homePageSectoin.className = "hide";
+    contactPageSection.className = "contact";
   });
 
   menuLink.addEventListener("click", () => {
@@ -56,6 +64,7 @@ export default function pageLoad(mainElement) {
     menuLink.classList.add("selected");
 
     homePageSectoin.className = "hide";
+    contactPageSection.className = "hide";
   });
 
   // Footer

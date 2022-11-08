@@ -1,0 +1,30 @@
+.contact {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    display: grid;
+    grid-template-columns: repeat(600px);
+
+    align-content: center;
+    justify-content: space-between;
+}
+
+.contact-details {
+    grid-column: 1/2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.contact-detail {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+.contact-detail span{
+    font-size: 36px;
+}
+
+.location-map {
+    grid-column: 2/3;
+}

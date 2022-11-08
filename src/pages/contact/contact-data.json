@@ -1,0 +1,23 @@
+[
+	{
+		"imgSrc": "/assets/images/contact/phone.png",
+		"imgAlt": "phone icon",
+        "contact": "038 224 5556"
+	},
+    {
+		"imgSrc": "/assets/images/contact/whatsapp.png",
+		"imgAlt": "whatsapp icon",
+        "contact": "077 528 3482"
+	},
+    {
+		"imgSrc": "/assets/images/contact/at.png",
+		"imgAlt": "email icon",
+        "contact": "contact@yamiyam.com"
+	},
+    {
+		"imgSrc": "/assets/images/contact/map_pin.png",
+		"imgAlt": "location_pin",
+        "contact": "The Fab, Galle Road, Panadura 125000"
+	}
+
+]
