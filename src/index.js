@@ -1,3 +1,3 @@
-import pageLoad from "./load-page.js";
+import pageLoad from "./pages/loadPage/load-page.js";
 
 pageLoad("content");

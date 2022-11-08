@@ -1,0 +1,31 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    font-family: 'niconne';
+    color: #F0E3CA;
+    margin: 0;
+    padding: 0;
+}
+
+
+@font-face {
+    font-family: 'niconne';
+    src: url('../../Assets/niconne/Niconne-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'roboto';
+    src: url('../../Assets/Roboto/Roboto-Regular.ttf') format('truetype');
+}
+
+
+.content {
+    display: grid;
+    grid-template-columns: 1fr 6fr 1fr;
+    grid-template-rows: 1fr 6fr 0.5fr;
+    min-height: 100vh;
+    background: url('../../Assets/Background_2.jpg');
+}
+
+.hide {
+    display: none;
+}

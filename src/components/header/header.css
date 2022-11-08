@@ -1,0 +1,43 @@
+.header {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+}
+
+.brand-name {
+    font-size: 64px;
+    letter-spacing: 0.05rem;
+}
+
+.brand-name:hover {
+    cursor: pointer;
+    color: #FF8303;
+}
+
+.nav ul {
+    display: flex;
+    gap: 10rem;
+    align-items: center;
+    padding: 0;
+    padding-top: .3rem;
+    margin: 0;
+}
+
+.nav ul li {
+    list-style: none;
+    font-size: 32px;
+    letter-spacing: 0.05rem;
+    height: 33px;
+}
+
+.nav ul li:hover {
+    cursor: pointer;
+    color: #FF8303;
+}
+
+.nav ul li.selected {
+    color: #FF8303;
+    border-bottom: 1px solid #FF8303;
+}
