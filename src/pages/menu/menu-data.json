@@ -1,0 +1,68 @@
+[
+	{
+		"menuItem": {
+            "title": "French Palmiers",
+            "description": "Palmiers are a French pastry that get their name from their distinctive shape. Palmier is short for “feuille de palmier” which translates to Leaf of the Palm.",
+            "price": "Rs. 100"
+        },
+        "menuItemImage": {
+            "src": "/assets/images/menu/image.png",
+            "alt": "Image of French Palmiers"
+        }
+	},
+    {
+		"menuItem": {
+            "title": "French Palmiers",
+            "description": "Palmiers are a French pastry that get their name from their distinctive shape. Palmier is short for “feuille de palmier” which translates to Leaf of the Palm.",
+            "price": "Rs. 100"
+        },
+        "menuItemImage": {
+            "src": "/assets/images/menu/image.png",
+            "alt": "Image of French Palmiers"
+        }
+	},
+    {
+		"menuItem": {
+            "title": "French Palmiers",
+            "description": "Palmiers are a French pastry that get their name from their distinctive shape. Palmier is short for “feuille de palmier” which translates to Leaf of the Palm.",
+            "price": "Rs. 100"
+        },
+        "menuItemImage": {
+            "src": "/assets/images/menu/image.png",
+            "alt": "Image of French Palmiers"
+        }
+	},
+    {
+		"menuItem": {
+            "title": "French Palmiers",
+            "description": "Palmiers are a French pastry that get their name from their distinctive shape. Palmier is short for “feuille de palmier” which translates to Leaf of the Palm.",
+            "price": "Rs. 100"
+        },
+        "menuItemImage": {
+            "src": "/assets/images/menu/image.png",
+            "alt": "Image of French Palmiers"
+        }
+	},
+    {
+		"menuItem": {
+            "title": "French Palmiers",
+            "description": "Palmiers are a French pastry that get their name from their distinctive shape. Palmier is short for “feuille de palmier” which translates to Leaf of the Palm.",
+            "price": "Rs. 100"
+        },
+        "menuItemImage": {
+            "src": "/assets/images/menu/image.png",
+            "alt": "Image of French Palmiers"
+        }
+	},
+    {
+		"menuItem": {
+            "title": "French Palmiers",
+            "description": "Palmiers are a French pastry that get their name from their distinctive shape. Palmier is short for “feuille de palmier” which translates to Leaf of the Palm.",
+            "price": "Rs. 100"
+        },
+        "menuItemImage": {
+            "src": "/assets/images/menu/image.png",
+            "alt": "Image of French Palmiers"
+        }
+	}
+]

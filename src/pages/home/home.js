@@ -40,12 +40,16 @@ export default function loadHome() {
     const menuLink = document.getElementById("menu");
     const contactLink = document.getElementById("contact");
     const homePageSectoin = document.getElementById("home-page");
+    const contactPageSection = document.getElementById("contact-page");
+    const menuPageSection = document.getElementById("menu-page");
 
     homeLink.classList.remove("selected");
     contactLink.classList.remove("selected");
     menuLink.classList.add("selected");
 
     homePageSectoin.className = "hide";
+    contactPageSection.className = "hide";
+    menuPageSection.className = "menu";
   });
 
   return homePage;

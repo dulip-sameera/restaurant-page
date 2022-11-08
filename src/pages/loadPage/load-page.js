@@ -26,11 +26,11 @@ export default function pageLoad(mainElement) {
   const homePage = loadHome();
   contentPage.appendChild(homePage);
 
-  const contactPage = loadContact();
-  contentPage.appendChild(contactPage);
-
   const menuPage = loadMenu();
   contentPage.appendChild(menuPage);
+
+  const contactPage = loadContact();
+  contentPage.appendChild(contactPage);
 
   // Body section access
   const homePageSectoin = document.getElementById("home-page");
@@ -73,7 +73,7 @@ export default function pageLoad(mainElement) {
 
     homePageSectoin.className = "hide";
     contactPageSection.className = "hide";
-    menuPage.className = "menu";
+    menuPageSection.className = "menu";
   });
 
   // Footer
