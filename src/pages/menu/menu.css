@@ -1,0 +1,79 @@
+.menu {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  display: none;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.menu h1 {
+  font-size: 36px;
+  letter-spacing: 0.05rem;
+  text-align: center;
+}
+
+.menu .items {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 5rem;
+}
+
+.menu .items .card {
+  width: 350px;
+  height: 450px;
+  background-color: #f0e3ca;
+  border-radius: 15px;
+
+  display: flex;
+  flex-direction: column;
+  transition: all 300ms ease-in-out;
+}
+
+.menu .items .card:hover {
+  transform: scale(1.06);
+  cursor: pointer;
+}
+
+.menu .items .card .image img {
+  width: 350px;
+}
+
+.card-content {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.card-content .title {
+  font-size: 20px;
+  color: #a35709;
+  letter-spacing: 0.05rem;
+  margin-bottom: 0.5rem;
+}
+
+.card-content .description {
+  font-size: 14px;
+  letter-spacing: 0.05rem;
+  font-family: "roboto", sans-serif;
+  color: #1b1a17;
+}
+
+.card-content .price {
+  width: 8rem;
+  font-size: 20px;
+  color: #f0e3ca;
+  background-color: #a35709;
+  border: none;
+  padding: 0.5rem 1rem;
+  align-self: end;
+  border-radius: 50px;
+}
+
+.card-content .price:hover {
+  background-color: #ff8303;
+  cursor: pointer;
+}
