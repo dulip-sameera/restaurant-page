@@ -6,7 +6,7 @@
             "price": "Rs. 100"
         },
         "menuItemImage": {
-            "src": "/assets/images/menu/image.png",
+            "src": "./assets/images/menu/image.png",
             "alt": "Image of French Palmiers"
         }
 	},
@@ -17,7 +17,7 @@
             "price": "Rs. 100"
         },
         "menuItemImage": {
-            "src": "/assets/images/menu/image.png",
+            "src": "./assets/images/menu/image.png",
             "alt": "Image of French Palmiers"
         }
 	},
@@ -28,7 +28,7 @@
             "price": "Rs. 100"
         },
         "menuItemImage": {
-            "src": "/assets/images/menu/image.png",
+            "src": "./assets/images/menu/image.png",
             "alt": "Image of French Palmiers"
         }
 	},
@@ -39,7 +39,7 @@
             "price": "Rs. 100"
         },
         "menuItemImage": {
-            "src": "/assets/images/menu/image.png",
+            "src": "./assets/images/menu/image.png",
             "alt": "Image of French Palmiers"
         }
 	},
@@ -50,7 +50,7 @@
             "price": "Rs. 100"
         },
         "menuItemImage": {
-            "src": "/assets/images/menu/image.png",
+            "src": "./assets/images/menu/image.png",
             "alt": "Image of French Palmiers"
         }
 	},
@@ -61,7 +61,7 @@
             "price": "Rs. 100"
         },
         "menuItemImage": {
-            "src": "/assets/images/menu/image.png",
+            "src": "./assets/images/menu/image.png",
             "alt": "Image of French Palmiers"
         }
 	}
