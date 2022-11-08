@@ -1,0 +1,55 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.message {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.05rem;
+}
+
+.message h3 {
+    font-size: 32px;
+    letter-spacing: 0.1rem;
+}
+
+.message h3:hover {
+    cursor: default;
+}
+
+.message h1 {
+    position: relative;
+    font-size: 96px;
+    letter-spacing: 0.5rem;
+    left: 3rem;
+}
+
+.message h1:hover {
+    cursor: default;
+}
+
+.message h1 span:nth-child(2) {
+    color: #FF8303;
+}
+
+
+.order-now-btn {
+    font-size: 36px;
+    padding: 1rem 2rem;
+    color: #A35709;
+    border-radius: 50px;
+    background-color: #F0E3CA;
+    border: none;
+}
+
+.order-now-btn:hover {
+    color: #F0E3CA;
+    background-color: #FF8303;
+    cursor: pointer;
+}
