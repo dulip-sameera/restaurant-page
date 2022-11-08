@@ -1,0 +1,10 @@
+.footer {
+    grid-column: 2/3;
+    grid-row: 3/4;
+    align-self: end;
+    justify-self: center;
+    font-size: 15px;
+    padding-bottom: 0.5rem;
+}
+
+.footer div a:hover {color:#FF8303}

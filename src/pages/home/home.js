@@ -4,7 +4,7 @@ import "./home.css";
 export default function loadHome() {
   // create Home Page
   const homePage = document.createElement("div");
-  homePage.id = "home";
+  homePage.id = "home-page";
   homePage.classList.add("home");
 
   // create Call out Message Section
@@ -34,6 +34,19 @@ export default function loadHome() {
     content: "Order-Now",
   });
   homePage.appendChild(orderNowBtn);
+
+  orderNowBtn.addEventListener("click", () => {
+    const homeLink = document.getElementById("home");
+    const menuLink = document.getElementById("menu");
+    const contactLink = document.getElementById("contact");
+    const homePageSectoin = document.getElementById("home-page");
+
+    homeLink.classList.remove("selected");
+    contactLink.classList.remove("selected");
+    menuLink.classList.add("selected");
+
+    homePageSectoin.className = "hide";
+  });
 
   return homePage;
 }
